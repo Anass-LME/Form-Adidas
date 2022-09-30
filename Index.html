@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="Images/nike.jpg" alt="Chaussure NIKE">
+
+        <div class="formf"> 
+            <h2>PAIEMENT</h2>
+            <h3>Informations</h3>
+
+            <Form>
+                <label for="Nom du porteur de la carte">Nom du porteur de la carte</label><br><input type="text" maxlength="30" class="form-control" id="ndc" name="ndc" required="" placeholder="Nom du porteur de la carte"><br>
+                <label for="Numéro de carte de paiement">Numéro de carte de paiement</label><br><input type="tel" maxlength="16" class="Form Control" id="ndm" name="ndm" required="" placeholder="Numéro de carte de paiement"><br>
+                <label for="Selectionner type de carte">Selectionner type de carte</label><br><select id="SCT" name="Selectionner type de carte" id="stc" required="">
+                    <option value="">--Select a Card Type--</option>
+                    <option value="">VISA</option>
+                    <option value="">MasterCard</option>
+                    <option value="">CMI</option>
+                </select><br>
+                
+
+                <tr>
+                    <label for="Date d'éxpiration">Date d'éxpiration</label><br>
+                    <td >
+                        <select id="date-validite"  class="form-control" name="Exp_Month">
+                            <option selected="selected" value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </td>
+
+                    <td>
+                        <select id="date-validite"  name="Exp_Year" class="form-control">
+                            <option value="22">2022</option>
+                            <option value="23">2023</option>
+                            <option value="24">2024</option>
+                            <option value="25">2025</option>
+                            <option value="26">2026</option>
+                            <option value="27">2027</option>
+                            <option value="28">2028</option>
+                            <option value="29">2029</option>
+                            <option value="30">2030</option>
+                            <option value="31">2031</option>
+                            <option value="32">2032</option>
+                            <option value="33">2033</option>
+                            <option value="34">2034</option>
+                            <option value="35">2035</option>
+                            <option value="36">2036</option>
+                            <option value="37">2037</option>
+                            <option value="38">2038</option>
+                            <option value="39">2039</option>
+                            <option value="40">2040</option>
+                            <option value="41">2041</option>
+                        </select>
+                    </td>
+                </tr><br>
+                <label for="CVV">Code de vérification</label><br><input type="tel" maxlength="3" placeholder="CVV" required=""><br>
+                <button>Valider le paiement</button>
+
+            </Form>
+        </div>
+    </div>
+</body>
+</html>

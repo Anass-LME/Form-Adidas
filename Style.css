@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(Fonts/FreeSans.ttf);
+}
+
+body{
+    background-image: url(Images/gradient-with-blurry-effect-s3sulhnratset6qh.jpg);
+    font-family: Helvetica;
+}
+img {
+    width: 450px;
+    height: 720px;
+    float: left;
+    border-radius: 25PX 0 0 25PX;
+    margin-right: 50px;
+  }
+  .container {
+    background-color: white;
+    width: 1050px;
+    height: 720px;
+    border-radius: 25px;
+    margin: 25px auto;
+  }
+  input {
+    display: block;
+    margin-bottom: 20px;
+    width: 500PX;
+    border: 0.5px solid rgb(192, 192, 192);
+      border-top-color: rgb(192, 192, 192);
+      border-top-style: solid;
+      border-top-width: 0.5px;
+      border-right-color: rgb(192, 192, 192);
+      border-right-style: solid;
+      border-right-width: 0.5px;
+      border-left-color: rgb(192, 192, 192);
+      border-left-style: solid;
+      border-left-width: 0.5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 45px;
+    padding: 1px 5px;
+    font-size: 20px;
+  }
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    padding-top: 30px;
+  }
+ #SCT {
+    margin-bottom: 20px;
+    width: 500PX;
+    border: 0.5px solid rgb(192, 192, 192);
+      border-top-color: rgb(192, 192, 192);
+      border-top-style: solid;
+      border-top-width: 0.5px;
+      border-right-color: rgb(192, 192, 192);
+      border-right-style: solid;
+      border-right-width: 0.5px;
+      border-left-color: rgb(192, 192, 192);
+      border-left-style: solid;
+      border-left-width: 0.5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 2px 5px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  button {
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    background: rgb(56,113,143);
+    background: linear-gradient(90deg, rgba(56,113,143,1) 0%, rgba(109,58,115,1) 35%);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+#date-validite{
+    margin-bottom: 20px;
+    width: 248px;
+    border: 0.5px solidvrgb(192, 192, 192);
+     border-top-color: rgb(192, 192, 192);
+     border-top-style: solid;
+     border-top-width: 0.5px;
+     border-right-color: rgb(192, 192, 192);
+      border-right-style: solid;
+      border-right-width: 0.5px;
+      border-left-color: rgb(192, 192, 192);
+      border-left-style: solid;
+      border-left-width: 0.5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 2px 5px;
+    font-size: 20px;
+    margin-top: 20px;
+
+      
+}
+.formf{
+    margin-top: 30px;
+}
